@@ -1,6 +1,6 @@
 {
   "name": "app-stack",
-  "description": "Build a SaaS app with coding agents on Next.js, Supabase, Clerk and Netlify: the path from idea to production, multi-tenant authorization, the production choices for Supabase and Clerk, environments and secrets, product design, transactional email, uptime monitoring, cookieless analytics, legal pages, remote MCP servers, ChatGPT plugins and embedded Claude agents.",
+  "description": "Build a SaaS app with coding agents on Next.js, Supabase, Clerk and Netlify: the path from idea to production, multi-tenant authorization, the production choices for Supabase and Clerk, environments and secrets, product design, usability audits and tests, transactional email, uptime monitoring, cookieless analytics, legal pages, remote MCP servers, ChatGPT plugins and embedded Claude agents.",
   "author": {
     "name": "Paweł Huryn",
     "email": "pawel@productcompass.pm",
@@ -16,6 +16,9 @@
     "saas",
     "authorization",
     "design",
+    "ux-audit",
+    "accessibility",
+    "usability-testing",
     "mcp",
     "chatgpt-plugin",
     "embedded-agents",

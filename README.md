@@ -4,7 +4,7 @@
 
 # Product Engineering
 
-44 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.
+46 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.
 
 **Lost at any point?** Type `/product:start-here` (Codex: `$product:start-here`) and say what you have. It tells you where the work stands and what's next. [Install](#install) first.
 
@@ -171,6 +171,8 @@ Most start themselves when the work matches what they're for. You start four, ma
 - `clerk-production`: Sign-in, organizations and billing
 - `environments`: Development and production kept apart
 - `ui-design`: Every screen from a user's job, then designed, built and judged
+- `ux-audit` (you start it): Can people finish their jobs, safely and accessibly?
+- `usability-test` (you start it): A test with real people, planned and analyzed
 - `transactional-email`: Email with receipts and one-click unsubscribe
 - `legal-pages`: Terms, privacy policy and consent that match the code
 - `product-analytics`: Cookieless recordings and heatmaps your agents read back
@@ -184,7 +186,7 @@ Most start themselves when the work matches what they're for. You start four, ma
 
 - `work-humanizer`: Edits AI-sounding text, or interviews you
 
-28 of the 44 skills were learned on real products built with Claude Code, Codex and Grok; 14 are established methods (the strategy frameworks in `product`, the documentation and review methods in `ai-shipping`); `product-analytics` rests on its vendors' docs and `work-humanizer` on a detector test. Each pack's `README.md` says more about every skill.
+28 of the 46 skills were learned on real products built with Claude Code, Codex and Grok; 16 are established methods (the strategy frameworks in `product`, the documentation and review methods in `ai-shipping`, the usability and accessibility methods in `ux-audit` and `usability-test`); `product-analytics` rests on its vendors' docs and `work-humanizer` on a detector test. Each pack's `README.md` says more about every skill.
 
 <details>
 <summary>What the skills cost your agent</summary>

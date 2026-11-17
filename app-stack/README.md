@@ -11,7 +11,7 @@ claude plugin install app-stack@product-engineering
 
 Codex, Cursor and other agents: see the collection's root `README.md`.
 
-## Skills (14)
+## Skills (16)
 
 - **app-lifecycle** — The detailed path for a SaaS from idea to production, stage by stage: what each produces, when it is done, what each product shape skips, and which capability to propose next when its trigger fires. It takes the accepted artifact from the `product` pack's `propose` as its first stages.
 - **saas-authorization** — Who may do what in a multi-tenant app: workspaces, the three functions every route goes through, permissions vs roles vs entitlements, invariants as database constraints, and the threat model every app has.
@@ -24,6 +24,8 @@ Codex, Cursor and other agents: see the collection's root `README.md`.
 - **embedded-agents-messages-api** — Embedding Claude agents in the app on the Claude API — the default: one wrapper, agents as directories, exactly the tools the app gives them, streamed to a chat UI.
 - **embedded-agents-agent-sdk** — The same agent directories on the Claude Agent SDK, for an agent that needs Claude Code's built-in tools.
 - **transactional-email** — Sending email from the app through a provider: an outbox, durable receipts and reconciliation instead of a promise of exactly-once, one-click unsubscribe, and a provider server per environment.
+- **ux-audit**: You start it: an expert review of a built product against usability heuristics, WCAG 2.2 AA and the domain's risks (healthcare and AI features included), with severity-ranked findings, quick wins and a re-audit. Type `/app-stack:ux-audit` (Codex: `$app-stack:ux-audit`).
+- **usability-test**: You start it: the plan, tasks, script, consent and recruiting message for a test with real people, then the findings and numbers (task success, time, errors, SUS) from the sessions. Type `/app-stack:usability-test` (Codex: `$app-stack:usability-test`).
 - **uptime-monitoring** — Knowing the app is down before its users do, on any monitoring service: content checks instead of status codes, confirmation from a second location, heartbeats for scheduled jobs, monitoring that doesn't run on what it monitors, and an alert route proven by a controlled failure. The default service is Staygreen, made by this collection's author, and its adapter is included; a service you already use stays.
 - **product-analytics** — What people did, without analytics cookies: session recordings and heatmaps from Microsoft Clarity with cookies off by default, PostHog for events on the landing page, the data read back by the agent through each vendor's MCP server, and what changes (a banner, a policy line, the owner's dashboard steps) when a cookie comes in.
 - **legal-pages** — Terms, a privacy policy and consent at sign-up, drafted from what the code collects and sends while it is built, held to it by a test, with the facts only the owner has and the owner's approval.
